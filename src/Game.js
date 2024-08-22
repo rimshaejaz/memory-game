@@ -73,8 +73,7 @@ function Game() {
       </div>
       <div className="stats">
         {won && (
-          <>You won the game!<br />
-            Click any card to play again.<br /><br />
+          <>You won! Click any card to play again.<br /><br />
           </>
         )}
         Clicks: {clicks} &nbsp;&nbsp; Found pairs: {foundPairs.length/2} &nbsp;&nbsp; Sets Won: {total}
