@@ -26,7 +26,7 @@ export default function Nav() {
     <Auth0Provider 
       domain={domain}
       clientId={clientId}
-      redirectUri={window.location.origin}>
+      redirectUri={`${window.location.origin}/game`}>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<LogInPage />} />
